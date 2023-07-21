@@ -41,23 +41,25 @@ export default function Heading() {
           </h3>
         </div>
       </div>
-      <div className="flex flex-col space-y-5 items-center sm:space-y-0 sm:flex-row sm:space-x-4 mt-auto mb-[280px] ">
-        <Button
-          className="!text-xl !px-9 !py-6"
-          size="large"
-          appearance="primary"
-          intent="danger"
-        >
-          PLAY TO EARN
-        </Button>
-        <Button
-          size="large"
-          className="!text-xl !px-9 !py-6"
-          appearance="primary"
-          intent="success"
-        >
-          BUY $SMON
-        </Button>
+      <div className="flex flex-col mt-auto space-y-5 items-center mb-[280px] ">
+        <div className="flex flex-col space-y-5 items-center sm:space-y-0 sm:flex-row sm:space-x-4">
+          <Button
+            className="!text-xl !px-9 !py-6"
+            size="large"
+            appearance="primary"
+            intent="danger"
+          >
+            PLAY TO EARN
+          </Button>
+          <Button
+            size="large"
+            className="!text-xl !px-9 !py-6"
+            appearance="primary"
+            intent="success"
+          >
+            BUY $SMON
+          </Button>
+        </div>
         <div className="socialmedia mdx:hidden  flex mr-5 space-x-5 items-center text-white ">
           <Image
             src={"/Icons/next.svg"}
